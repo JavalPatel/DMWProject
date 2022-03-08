@@ -70,6 +70,8 @@ LDA = lda()  #82.16
 LDA.fit(x_train, y_train)
 
 
+print("0: NULL (dropped from the dataset previously) \n1: fixed defect no blood flow in some part of the heart \n2: normal blood flow \n3: reversible defect (a blood flow is observed but it is not normal)")
+thal = int(input("blood disorder thalassemia type:--"))
 
 
 features = np.array([[63,1,3,145,233,1,0,150,0,2.1,0,0,1]])
